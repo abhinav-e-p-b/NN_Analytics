@@ -1,6 +1,6 @@
 # Changes I have made to the model
 
-Changes made in activation.h
+#Changes made in activation.h
 
 ## 1. Added cmath include
 
@@ -82,7 +82,7 @@ These helper functions are only meant to be used internally via function(), not 
 
 ---
 
-## Changes Made in `derivative` Class
+### Changes Made in `derivative` Class
 
 1. Added `<cmath>` include
 #include <cmath>  // Needed for std::tanh
@@ -135,6 +135,7 @@ double loss(ACT_FUN id, double x) {
         default: return 1.0;
     }
 }
+---
 
 ### Changes in model class
 
@@ -155,6 +156,7 @@ double loss(ACT_FUN id, double x) {
    - Some layers are fully connected, others partially connected to introduce variety.
 
 5. Slightly increased learning rate for faster convergence.
+---
 
 ### Changes in neuron class
 
