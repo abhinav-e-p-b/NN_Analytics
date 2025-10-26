@@ -84,7 +84,6 @@ These helper functions are only meant to be used internally via function(), not 
 
 ## Changes Made in `derivative` Class
 
-```cpp
 1. Added `<cmath>` include
 #include <cmath>  // Needed for std::tanh
 
