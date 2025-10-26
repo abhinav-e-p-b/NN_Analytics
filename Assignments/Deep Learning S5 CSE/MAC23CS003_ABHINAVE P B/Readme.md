@@ -136,7 +136,7 @@ double loss(ACT_FUN id, double x) {
     }
 }
 
-##Changes in model class
+### Changes in model class
 
 
 1. Increased network layers from 3 → 5:
@@ -156,7 +156,7 @@ double loss(ACT_FUN id, double x) {
 
 5. Slightly increased learning rate for faster convergence.
 
-##Changes in neuron class
+### Changes in neuron class
 
 1. Initialized learning_rate and flags in constructor:
    - learning_rate = 0.001
@@ -175,7 +175,7 @@ double loss(ACT_FUN id, double x) {
 5. Overall, backward() now handles weight and bias updates safely and clearly.
 
 
-##Changes in training class:
+### Changes in training class:
 
 1. Optimized is_close() using std::abs for clarity.
 2. Optimized difference() function for readability.
